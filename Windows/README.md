@@ -1,0 +1,1 @@
+These windows scripts will get your PC ready for AcademyPGH. The one requirement is to download [Chocolatey](http://www.chocolatey.org). Once this is downloaded, open Powershell as an Administrator and run Part 1, then open a new Powershell window and run Part 2.
