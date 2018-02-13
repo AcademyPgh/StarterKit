@@ -1,7 +1,7 @@
 # Variables
 $rubygems = "rubygems-2.6.13"
 $rgzip = $rubygems + ".zip"
-$tempdir = c:\temp
+$tempdir = "c:\temp"
 
 # Update DevKit
 @"
