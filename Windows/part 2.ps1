@@ -3,6 +3,9 @@ $rubygems = "rubygems-2.6.13"
 $rgzip = $rubygems + ".zip"
 $tempdir = "c:\temp"
 
+# Allow Invoke-WebRequest to use tls 1.2, 1.1 and 1.0 (default is just 1.0)
+[Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
+
 # Update DevKit
 @"
 ---
