@@ -1,16 +1,16 @@
 # General Installers
-cinst googlechrome -y
+#cinst googlechrome -y
 cinst 7zip -y
-cinst javaruntime -y
-cinst vcredist2013 -y
-cinst vcredist2012 -y
-cinst vcredist2010 -y
-cinst vcredist2008 -y
-cinst vcredist2005 -y
-cinst filezilla -y
-cinst putty -y
+#cinst javaruntime -y
+#cinst vcredist2013 -y
+#cinst vcredist2012 -y
+#cinst vcredist2010 -y
+#cinst vcredist2008 -y
+#cinst vcredist2005 -y
+#cinst filezilla -y
+#cinst putty -y
 cinst python2 -y
-cinst notepadplusplus -y
+#cinst notepadplusplus -y
 
 # Code Installers
 cinst git -y
