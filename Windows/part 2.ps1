@@ -1,30 +1,4 @@
-# Variables
-$rubygems = "rubygems-2.6.13"
-$rgzip = $rubygems + ".zip"
-$tempdir = "c:\temp"
-
-# Allow Invoke-WebRequest to use tls 1.2, 1.1 and 1.0 (default is just 1.0)
-[Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
-
-# Update DevKit
-@"
----
-- c:/tools/ruby23
-"@ | Out-File c:\tools\DevKit2\config.yml -Force -Encoding UTF8
-pushd c:\tools\DevKit2
-ruby dk.rb install -f
-popd
-
-
-# Update RubyGems (Windows install has bad SSL on versions older than 2.4)
-mkdir $tempdir
-pushd $tempdir
-
-Invoke-WebRequest -uri https://rubygems.org/rubygems/$rgzip -OutFile $rgzip
-Expand-Archive $rgzip -DestinationPath $tempdir
-pushd $rubygems
-ruby setup.rb
-popd
-popd
+ridk install 2 3
+ridk exec pacman -S mingw-w64-x86_64-dlfcn
 
 gem install rails
