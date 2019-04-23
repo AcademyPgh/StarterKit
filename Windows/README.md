@@ -22,6 +22,18 @@ Open a new PowerShell windows as an administrator, copy everything from the part
 Close this PowerShell window and proceed to script 2.
 
 ## Script 2
-[part 2](part%202.ps1) sets up the programs you installed in part 1. Open a new PowerShell windows as an administrator, copy everything from the part 2 script, and run it.
+[part 2](part%202.ps1) sets up the Ruby environment that you installed in part 1. Open a new PowerShell windows as an administrator, copy everything from the part 2 script, and run it.
 
-You may see some questions about allowing access - do allow access to networks.
+## Configure Rails
+You don't have to do this now, but remember that you'll have to for the future.
+
+Whenever you're doing a new Rails project in the future, you'll need to use a version of chromedriver-helper that works on Windows. ([more details](https://stackoverflow.com/questions/52630480/rails-seleniumwebdrivererrorwebdrivererror-not-executable-chromedriver)) Here's how to do that:
+1. after doing `rails new`, open the file `Gemfile`
+1. find the line `gem 'chromedriver-helper'` and change it to say: `gem 'chromedriver-helper', '1.2.0'`
+
+## check to make sure everything works
+After you do all that, here are some things you should be able to do:
+
+1. open Chrome! You might want to pin it to your taskbar.
+2. open Visual Studio (pin?) and make a hello world project (if you know how) (it opening successfully is the most important part)
+3. run `rails new my_project_name` from the command line and have it complete successfully
