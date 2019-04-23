@@ -1,5 +1,5 @@
 # set security policy appropriately
-Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+Set-ExecutionPolicy RemoteSigned -Force
 
 # General Installers
 cinst googlechrome -y
