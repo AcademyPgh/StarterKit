@@ -23,3 +23,5 @@ Close this PowerShell window and proceed to script 2.
 
 ## Script 2
 [part 2](part%202.ps1) sets up the programs you installed in part 1. Open a new PowerShell windows as an administrator, copy everything from the part 2 script, and run it.
+
+You may see some questions about allowing access - do allow access to networks.
