@@ -35,5 +35,5 @@ Whenever you're doing a new Rails project in the future, you'll need to use a ve
 After you do all that, here are some things you should be able to do:
 
 1. open Chrome! You might want to pin it to your taskbar.
-2. open Visual Studio (pin?) and make a hello world project (if you know how) (it opening successfully is the most important part)
+2. open Visual Studio (pin?), create a new project, and make sure that you've got the type `Console App (.NET Framework)` available.
 3. run `rails new my_project_name` from the command line and have it complete successfully
