@@ -24,6 +24,8 @@ Close this PowerShell window and proceed to script 2.
 ## Script 2
 [part 2](part%202.ps1) sets up the Ruby environment that you installed in part 1. Open a new PowerShell windows as an administrator, copy everything from the part 2 script, and run it.
 
+You'll need to enter `Y` after everything else is done running to finish script 2. It'll ask you to confirm something (on the command line) - confirm by typing `Y` and then `return`.
+
 ## Configure Rails
 You don't have to do this now, but remember that you'll have to for the future.
 
