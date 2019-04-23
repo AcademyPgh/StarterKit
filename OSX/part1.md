@@ -14,18 +14,20 @@ When it asks you for a password, it's looking for your login password.
 
 ## install/update everything else by using homebrew, do a little configuration
 
-`brew install git`
-`brew install ruby`
-`echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile`
-`source ~/.bash_profile`
-`brew install sqlite`
-`echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile`
-`source ~/.bash_profile`
-`brew install nodeenv`
-`brew install node`
-`brew cask install visual-studio-code`
-`brew cask install google-chrome`
-`brew cask install visual-studio` (asks for your login password)
+```
+brew install git
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+brew install sqlite
+echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+brew install nodeenv
+brew install node
+brew cask install visual-studio-code
+brew cask install google-chrome
+brew cask install visual-studio
+```
 
 ## check to make sure everything works
 
