@@ -2,24 +2,16 @@
 Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 
 # General Installers
-#cinst googlechrome -y
+cinst googlechrome -y
 cinst 7zip -y
-#cinst javaruntime -y
-#cinst vcredist2013 -y
-#cinst vcredist2012 -y
-#cinst vcredist2010 -y
-#cinst vcredist2008 -y
-#cinst vcredist2005 -y
-#cinst filezilla -y
-#cinst putty -y
+cinst javaruntime -y
+cinst putty -y
 cinst python2 -y
-#cinst notepadplusplus -y
-
-# Code Installers
 cinst git -y
 cinst visualstudiocode -y
+cinst visualstudio2019community --package-parameters "--addProductLang en-US --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.Data --includeRecommended --includeOptional --passive"
 
-# Rails Installers
+# For Rails Installers
 cinst ruby --version=2.3.3 -y
 cinst msys2 -y
 cinst ruby2.devkit -y
