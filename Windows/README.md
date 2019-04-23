@@ -30,6 +30,7 @@ You don't have to do this now, but remember that you'll have to for the future.
 Whenever you're doing a new Rails project in the future, you'll need to use a version of chromedriver-helper that works on Windows. ([more details](https://stackoverflow.com/questions/52630480/rails-seleniumwebdrivererrorwebdrivererror-not-executable-chromedriver)) Here's how to do that:
 1. after doing `rails new`, open the file `Gemfile`
 1. find the line `gem 'chromedriver-helper'` and change it to say: `gem 'chromedriver-helper', '1.2.0'`
+1. You'll need to run `bundle install` again since you've changed the gems you're asking for.
 
 ## check to make sure everything works
 After you do all that, here are some things you should be able to do:
