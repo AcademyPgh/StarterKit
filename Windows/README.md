@@ -5,7 +5,9 @@ These windows scripts will get your PC ready for AcademyPGH. Follow these instru
 
 Run Powershell as an administrator (you'll have to do this several times as you follow these instructions):
 1. press the windows key, type `powershell`
-1. when you see Windows PowerShell as a program, right click it and choose `Run as administrator`.
+1. when you see Windows PowerShell as a program
+   1. optionally, you may want to pin it to your task bar so you can always find it there. If so, right click it and choose `Pin to taskbar`.
+   1. To open PowerShell, right click it and choose `Run as administrator`.
 1. you may get a prompt asking if you want to allow it to make changes to your computer - choose `yes`.
 
 To download and install Chocolatey, run this command in your command line: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
