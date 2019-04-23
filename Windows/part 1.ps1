@@ -1,3 +1,6 @@
+# set security policy appropriately
+Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+
 # General Installers
 #cinst googlechrome -y
 cinst 7zip -y
