@@ -20,5 +20,6 @@ cinst ruby -y
 cinst sqlite -y
 cinst sqlite.shell -y
 cinst nodejs.install -y
+cinst yarn -y
 
 # Run part 2 in a separate shell to reload ruby and all the things
