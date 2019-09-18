@@ -3,6 +3,7 @@ Set-ExecutionPolicy RemoteSigned -Force
 
 # General Installers
 cinst googlechrome -y
+cinst firefox -y
 cinst 7zip -y
 cinst javaruntime -y
 cinst putty -y
@@ -14,7 +15,7 @@ cinst visualstudio2019community -y --package-parameters "--addProductLang en-US 
 
 # For Rails Installers
 cinst ruby -y
-cinst msys2 --params "/NoUpdate" -y
+# cinst msys2 --params "/NoUpdate" -y
 cinst sqlite -y
 cinst sqlite.shell -y
 cinst nodejs.install -y
