@@ -9,6 +9,7 @@ cinst javaruntime -y
 cinst putty -y
 cinst python2 -y
 cinst git -y
+cinst dbeaver -y
 cinst riot-web -y
 cinst notepadplusplus -y
 cinst visualstudiocode -y
