@@ -17,6 +17,7 @@ When it asks you for a password, it's looking for your login password.
 ```
 brew install git
 brew install ruby
+brew install yarn
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 brew install sqlite
