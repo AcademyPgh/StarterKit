@@ -44,3 +44,9 @@ After you do all these, here are some commands you should be able to run (mostly
 Install Rails, create a new project, and run it. Does it work?
 
 Don't do this if you don't know how to, we'll work through it together later.
+
+Note to Jean from Jean:
+- `gem install rails`
+- `gem env`
+- find the gem path and add `/bin` to it
+- put that in front of the path
