@@ -14,21 +14,41 @@ When it asks you for a password, it's looking for your login password.
 
 ## install/update everything else by using homebrew, do a little configuration
 
-```
+```console
 brew install git
 brew install ruby
 brew install yarn
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
 brew install sqlite
-echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
 brew install nodeenv
 brew install node
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install visual-studio
 ```
+
+Now you need to know what shell you're using:
+
+```console
+echo $SHELL
+```
+
+If your shell is `bash` (default in macOS Mojave and earlier):
+
+```console
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+If your shell is `zsh` (default in macOS Catalina and later):
+
+```console
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshenv
+echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshenv
+source ~/.zshenv
+```
+
+Note: In macOS Catalina, the default shell is now `zsh`. If you are using zsh then 
 
 ## check to make sure everything works
 
