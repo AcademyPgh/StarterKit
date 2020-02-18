@@ -48,8 +48,6 @@ echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshenv
 source ~/.zshenv
 ```
 
-Note: In macOS Catalina, the default shell is now `zsh`. If you are using zsh then 
-
 ## check to make sure everything works
 
 After you do all these, here are some commands you should be able to run (mostly in your terminal) and the results you should see (if you see nothing or an error, something has gone wrong):
