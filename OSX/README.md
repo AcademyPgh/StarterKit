@@ -43,9 +43,9 @@ source ~/.bash_profile
 If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshenv
-echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshenv
-source ~/.zshenv
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ## check to make sure everything works
