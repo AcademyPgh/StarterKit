@@ -22,8 +22,15 @@ brew install sqlite
 brew install nodeenv
 brew install node
 brew cask install visual-studio-code
+
 brew cask install google-chrome
 brew cask install visual-studio
+brew cask install element
+brew cask install zoom
+brew cask install mumble
+brew cask install parsec
+brew cask install dbeaver-community
+brew cask install dotnet-sdk
 ```
 
 Now you need to know what shell you're using:
@@ -50,6 +57,10 @@ echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+## manual install/configure
+* Install VS Code's [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
+* Open mumble. You'll need a headset - the mac has no echo cancellation. You'll also need to go to Security & Privacy and tell mumble to 'open anyway'. Give it access to your microphone.
+
 ## check to make sure everything works
 
 After you do all these, here are some commands you should be able to run (mostly in your terminal) and the results you should see (if you see nothing or an error, something has gone wrong):
@@ -60,14 +71,4 @@ After you do all these, here are some commands you should be able to run (mostly
 * `code .`: this command will open Visual Studio Code (the default code editor we're using in class) with all the files from the directory you're currently in. It may ask you if terminal can access your contacts and calendar - click 'Don't Allow'
 * Use Spotlight to run `chrome`
 * Use Spotlight to run `Visual Studio` - eventually, you will need to sign in with a Microsoft account, and it kind of makes sense to do it now. But you can skip it if you want.
-
-## Final extra bonus check:
-Install Rails, create a new project, and run it. Does it work?
-
-Don't do this if you don't know how to, we'll work through it together later.
-
-Note to Jean from Jean:
-- `gem install rails`
-- `gem env`
-- find the gem path and add `/bin` to it
-- put that in front of the path
+* Use Spotlight to run `DBeaver`. It should open.
