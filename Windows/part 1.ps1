@@ -14,6 +14,12 @@ cinst riot-web -y
 cinst notepadplusplus -y
 cinst visualstudiocode -y
 cinst visualstudio2019community -y --package-parameters "--addProductLang en-US --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.Data --includeRecommended --includeOptional --passive"
+cinst zoom -y
+cinst mumble -y
+cinst vscode-vsliveshare -y
+cinst dotnetcore-sdk -y
+cinst parsec -y
+cinst microsoft-windows-terminal -y
 
 # For Rails Installers
 cinst ruby -y
