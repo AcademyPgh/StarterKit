@@ -35,6 +35,7 @@ echo $SHELL
 If your shell is `bash` (default in macOS Mojave and earlier):
 
 ```console
+echo 'export PATH="/usr/local/lib/ruby/gems/2.*/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
@@ -43,6 +44,7 @@ source ~/.bash_profile
 If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
+echo 'export PATH="/usr/local/lib/ruby/gems/2.*/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
@@ -52,6 +54,7 @@ source ~/.zshrc
 
 After you do all these, here are some commands you should be able to run (mostly in your terminal) and the results you should see (if you see nothing or an error, something has gone wrong):
 * `ruby --version`: you should see a version newer than 2.3
+* `gem install rails`: should complete successfully. When it's done, you should be able to run `rails --version` and see a version number!
 * `sqlite3 --version`: you should see a version newer than `3.24`.
 * `node --version`: you should see a version! Mine (April 2019) is `v11.14.0`
 * `code .`: this command will open Visual Studio Code (the default code editor we're using in class) with all the files from the directory you're currently in. It may ask you if terminal can access your contacts and calendar - click 'Don't Allow'
