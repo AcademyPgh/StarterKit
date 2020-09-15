@@ -43,6 +43,7 @@ If your shell is `bash` (default in macOS Mojave and earlier):
 
 ```console
 echo 'export PATH="/usr/local/lib/ruby/gems/2.*/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
@@ -52,6 +53,7 @@ If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
 echo 'export PATH="/usr/local/lib/ruby/gems/2.*/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
