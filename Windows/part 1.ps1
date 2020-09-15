@@ -23,10 +23,10 @@ cinst microsoft-windows-terminal -y
 
 # For Rails Installers
 cinst ruby -y
-# cinst msys2 --params "/NoUpdate" -y
 cinst sqlite -y
 cinst sqlite.shell -y
 cinst nodejs.install -y
 cinst yarn -y
 
 # Run part 2 in a separate shell to reload ruby and all the things
+cinst msys2 -y
