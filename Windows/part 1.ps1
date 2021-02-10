@@ -18,7 +18,6 @@ cinst zoom -y
 cinst mumble -y
 cinst vscode-vsliveshare -y
 cinst dotnetcore-sdk -y
-cinst parsec -y
 cinst microsoft-windows-terminal -y
 
 # For Rails Installers
