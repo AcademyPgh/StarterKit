@@ -28,7 +28,6 @@ brew cask install visual-studio
 brew cask install element
 brew cask install zoom
 brew cask install mumble
-brew cask install parsec
 brew cask install dbeaver-community
 brew cask install dotnet-sdk
 brew tap AdoptOpenJDK/openjdk
