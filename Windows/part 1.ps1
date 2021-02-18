@@ -29,3 +29,5 @@ cinst yarn -y
 
 # Run part 2 in a separate shell to reload ruby and all the things
 cinst msys2 -y
+
+# extra comment line just to make sure that that cinst msys2 runs for real!
