@@ -1,3 +1,5 @@
+# 2021-02-21
+
 ## open your command line application (called 'terminal' on the mac)
 
 use spotlight (press command and space at the same time), then type `terminal` and press enter to open it.
@@ -21,17 +23,17 @@ brew install yarn
 brew install sqlite
 brew install nodeenv
 brew install node
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
-brew cask install google-chrome
-brew cask install visual-studio
-brew cask install element
-brew cask install zoom
-brew cask install mumble
-brew cask install dbeaver-community
-brew cask install dotnet-sdk
+brew install --cask google-chrome
+brew install --cask visual-studio
+brew install --cask element
+brew install --cask zoom
+brew install --cask mumble
+brew install --cask dbeaver-community
+brew install --cask dotnet-sdk
 brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk-jre
+brew install --cask adoptopenjdk-jre
 ```
 
 Now you need to know what shell you're using:
