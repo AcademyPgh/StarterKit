@@ -22,7 +22,7 @@ brew install ruby
 brew install yarn
 brew install sqlite
 brew install nodeenv
-brew install node
+brew install node@14
 brew install --cask visual-studio-code
 
 brew install --cask google-chrome
