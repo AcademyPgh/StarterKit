@@ -18,6 +18,10 @@ When the install has completed, copy/paste the recommended command to add brew t
 
 ## install/update everything else by using homebrew, do a little configuration
 
+### If you are running an M1 Mac, run this command before the rest of the commands below ###
+
+`sudo softwareupdate --install-rosetta`
+
 ```console
 brew install git
 brew install ruby
@@ -47,20 +51,23 @@ echo $SHELL
 If your shell is `bash` (default in macOS Mojave and earlier):
 
 ```console
-echo 'export PATH="/usr/local/lib/ruby/gems/3.*/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/node@14/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
 If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
-echo 'export PATH="/usr/local/lib/ruby/gems/3.*/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/node@14/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
 source ~/.zshrc
 ```
 
