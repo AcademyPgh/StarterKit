@@ -14,6 +14,8 @@ In your terminal, run `xcode-select --install`, then click through the prompts. 
 
 When it asks you for a password, it's looking for your login password.
 
+When the install has completed, copy/paste the recommended command to add brew to your shell.
+
 ## install/update everything else by using homebrew, do a little configuration
 
 ```console
