@@ -72,7 +72,6 @@ source ~/.zshrc
 
 ## manual install/configure
 * Install VS Code's [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
-* Open mumble. You'll need a headset - the mac has no echo cancellation. You'll also need to go to Security & Privacy and tell mumble to 'open anyway'. Give it access to your microphone.
 
 ## check to make sure everything works
 
