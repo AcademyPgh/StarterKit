@@ -35,7 +35,6 @@ brew install --cask google-chrome
 brew install --cask visual-studio
 brew install --cask element
 brew install --cask zoom
-brew install --cask mumble
 brew install --cask dbeaver-community
 brew install --cask dotnet-sdk
 brew tap AdoptOpenJDK/openjdk
