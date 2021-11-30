@@ -5,7 +5,7 @@ Set-ExecutionPolicy RemoteSigned -Force
 cinst googlechrome -y
 cinst firefox -y
 cinst 7zip -y
-cinst javaruntime -y
+cinst openjdk --version=15.0.2 -y
 cinst putty -y
 cinst python2 -y
 cinst git -y
