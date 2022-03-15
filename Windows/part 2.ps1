@@ -3,6 +3,8 @@
 
 ridk exec pacman -Syu
 ridk exec pacman -S mingw-w64-x86_64-dlfcn
+# select "all"
+ridk exec pacman -S mingw-w64-x86_64-toolchain
 ridk install 2 3
 cinst ruby --version=2.6.5.1 --side-by-side -y
 ridk use 1
