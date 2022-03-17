@@ -39,6 +39,7 @@ brew install --cask dbeaver-community
 brew install --cask dotnet-sdk
 brew tap AdoptOpenJDK/openjdk
 brew install --cask adoptopenjdk-jre
+brew install --cask microsoft-teams
 ```
 
 Now you need to know what shell you're using:
