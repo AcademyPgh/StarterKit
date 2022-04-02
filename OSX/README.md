@@ -22,6 +22,8 @@ When the install has completed, copy/paste the recommended command to add brew t
 
 `sudo softwareupdate --install-rosetta`
 
+### All Macs should run this part
+
 ```console
 brew install git
 brew install ruby
