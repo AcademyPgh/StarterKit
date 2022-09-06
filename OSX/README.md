@@ -1,4 +1,4 @@
-# 2021-02-21
+# 2022-09-06
 
 ## open your command line application (called 'terminal' on the mac)
 
@@ -10,11 +10,9 @@ In your terminal, run `xcode-select --install`, then click through the prompts. 
 
 ## install homebrew by pasting this into the command line
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 When it asks you for a password, it's looking for your login password.
-
-When the install has completed, copy/paste the recommended command to add brew to your shell.
 
 ## install/update everything else by using homebrew, do a little configuration
 
