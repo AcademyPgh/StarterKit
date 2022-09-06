@@ -16,10 +16,6 @@ When it asks you for a password, it's looking for your login password.
 
 ## install/update everything else by using homebrew, do a little configuration
 
-### If you are running an M1 Mac, run this command before the rest of the commands below ###
-
-`sudo softwareupdate --install-rosetta`
-
 ### All Macs should run this part
 
 ```console
@@ -32,7 +28,6 @@ brew install node@14
 brew install --cask visual-studio-code
 
 brew install --cask google-chrome
-brew install --cask visual-studio
 brew install --cask element
 brew install --cask zoom
 brew install --cask dbeaver-community
