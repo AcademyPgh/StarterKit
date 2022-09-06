@@ -91,7 +91,8 @@ source ~/.zshrc
 ## manual install/configure
 * Install [Visual Studio 2022 For Mac](https://visualstudio.microsoft.com/downloads/) (Don't get the Windows version)
   * You MUST check the first checkbox: `Core .NET` on this list:
-<img width="799" alt="Visual Studio installer" src="https://user-images.githubusercontent.com/1461735/188691505-3c9a1a3c-0f11-4279-92e3-18e44ebf431a.png">
+  * <img width="799" alt="Visual Studio installer" src="https://user-images.githubusercontent.com/1461735/188691505-3c9a1a3c-0f11-4279-92e3-18e44ebf431a.png">
+  * You can ignore the `Android SDK instance error`
 
 ## check to make sure everything works
 
