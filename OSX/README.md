@@ -92,7 +92,6 @@ source ~/.zshrc
 * Install [Visual Studio 2022 For Mac](https://visualstudio.microsoft.com/downloads/) (Don't get the Windows version)
   * You MUST check the first checkbox: `Core .NET` on this list:
 <img width="799" alt="Visual Studio installer" src="https://user-images.githubusercontent.com/1461735/188691505-3c9a1a3c-0f11-4279-92e3-18e44ebf431a.png">
-* Install VS Code's [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
 
 ## check to make sure everything works
 
