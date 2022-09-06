@@ -33,7 +33,6 @@ brew install --cask dbeaver-community
 # brew install --cask dotnet-sdk
 brew tap AdoptOpenJDK/openjdk
 brew install --cask adoptopenjdk-jre
-brew install --cask microsoft-teams
 ```
 
 Now you need to know what shell you're using:
@@ -93,6 +92,7 @@ source ~/.zshrc
   * You MUST check the first checkbox: `Core .NET` on this list:
   * <img width="799" alt="Visual Studio installer" src="https://user-images.githubusercontent.com/1461735/188691505-3c9a1a3c-0f11-4279-92e3-18e44ebf431a.png">
   * You can ignore the `Android SDK instance error`
+  * Log in with a free Microsoft account (use the same one you used for Teams)
 
 ## check to make sure everything works
 
