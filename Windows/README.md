@@ -24,10 +24,6 @@ Close this PowerShell window and proceed to script 2,
 ## Script 2
 [part 2](part%202.ps1) sets up the Ruby environment that you installed in part 1. Open a new PowerShell windows as an administrator, copy everything from the part 2 script, and run it.
 
-Almost as soon as you start, it will pop up a window in the background for MSYS2. Press `Next` on this window 3 times, using the defaults, and then `Finish` when the installer is done.
-
-You'll need to enter `Y` after everything else is done running to finish script 2. It'll ask you to confirm something (on the command line) - confirm by typing `Y` and then `Enter`.
-
 ## check to make sure everything works
 After you do all that, here are some things you should be able to do:
 
