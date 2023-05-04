@@ -27,4 +27,10 @@ cinst yarn -y
 # Run part 2 in a separate shell to reload ruby and all the things
 cinst msys2 -y
 
+# New ruby installer breaks permissions for non-admins to add gems, fix it
+$rubypath = 'C:\tools\ruby31\'
+$perms = Get-Acl -Path $rubypath
+$perms.SetAccessRuleProtection($False,$true)
+Set-Acl -Path $rubypath -AclObject $perms
+
 # extra comment line just to make sure that that cinst msys2 runs for real!
