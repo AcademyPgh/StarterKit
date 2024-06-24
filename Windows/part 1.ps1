@@ -5,7 +5,7 @@ Set-ExecutionPolicy RemoteSigned -Force
 choco install googlechrome -y
 choco install firefox -y
 choco install 7zip -y
-choco install openjdk --version=15.0.2 -y
+choco install temurin17 -y
 choco install putty -y
 choco install python3 -y
 choco install git -y
@@ -28,7 +28,7 @@ choco install yarn -y
 choco install msys2 -y
 
 # New ruby installer breaks permissions for non-admins to add gems, fix it
-$rubypath = 'C:\tools\ruby31\'
+$rubypath = 'C:\tools\ruby33\'
 $perms = Get-Acl -Path $rubypath
 $perms.SetAccessRuleProtection($False,$true)
 Set-Acl -Path $rubypath -AclObject $perms

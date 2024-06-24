@@ -10,7 +10,7 @@ Run Powershell as an administrator (you'll have to do this several times as you 
    1. To open PowerShell, right click it and choose `Run as administrator`.
 1. you may get a prompt asking if you want to allow it to make changes to your computer - choose `yes`.
 
-To download and install Chocolatey, run this command in your command line: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+To download and install Chocolatey, run this command in your command line: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
 Close this PowerShell window and proceed to script 1.
 
