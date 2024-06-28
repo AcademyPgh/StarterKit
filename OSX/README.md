@@ -23,16 +23,14 @@ brew install git
 brew install ruby
 brew install yarn
 brew install sqlite
-brew install nodeenv
-brew install node@14
+brew install node@20
 brew install --cask visual-studio-code
 
 brew install --cask google-chrome
-brew install --cask element
+brew install --cask mattermost
+brew install --cask temurin@17
 brew install --cask dbeaver-community
-# brew install --cask dotnet-sdk
-brew tap AdoptOpenJDK/openjdk
-brew install --cask adoptopenjdk-jre
+brew install --cask dotnet-sdk
 ```
 
 Now you need to know what shell you're using:
