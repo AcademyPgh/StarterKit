@@ -20,7 +20,7 @@ When it asks you for a password, it's looking for your login password.
 
 ```console
 brew install git
-brew install ruby
+brew install ruby@3.3
 brew install yarn
 brew install sqlite
 brew install node@20
@@ -43,10 +43,10 @@ echo $SHELL
 If your shell is `bash` (default in macOS Mojave and earlier):
 
 ```console
-echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="/opt/homebrew/opt/node@14/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/opt/homebrew/opt/node@20/bin:$PATH"' >> ~/.bash_profile
 
 source ~/.bash_profile
 ```
@@ -54,10 +54,10 @@ source ~/.bash_profile
 If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
-echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/opt/homebrew/opt/node@14/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/node@20/bin:$PATH"' >> ~/.zshrc
 
 source ~/.zshrc
 ```
@@ -66,10 +66,10 @@ source ~/.zshrc
 If your shell is `bash` (default in macOS Mojave and earlier):
 
 ```console
-echo 'export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="/usr/local/opt/node@14/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/node@20/bin:$PATH"' >> ~/.bash_profile
 
 source ~/.bash_profile
 ```
@@ -77,10 +77,10 @@ source ~/.bash_profile
 If your shell is `zsh` (default in macOS Catalina and later):
 
 ```console
-echo 'export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
-echo 'export PATH="/usr/local/opt/node@14/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/opt/node@20/bin:$PATH"' >> ~/.zshrc
 
 source ~/.zshrc
 ```
