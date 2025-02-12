@@ -14,14 +14,13 @@ choco install mattermost-desktop -y
 choco install vscode -y
 choco install visualstudio2022community -y --package-parameters "--addProductLang en-US --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.Data --includeRecommended --includeOptional --passive"
 choco install zoom -y
-choco install dotnetcore-sdk -y
 choco install microsoft-windows-terminal -y
 
 # For Rails Installers
 choco install ruby -y
 choco install sqlite -y
 choco install sqlite.shell -y
-choco install nodejs-lts -y
+choco install volta -y
 choco install yarn -y
 
 # Run part 2 in a separate shell to reload ruby and all the things
